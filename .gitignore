@@ -1,0 +1,36 @@
+# Environment — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+backend.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notes local cache (pushed to GitHub separately)
+notes/
+
+# Google OAuth token cache
+token.json
+token.pickle
